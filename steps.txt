@@ -1,0 +1,13 @@
+1 - see the changes made in package.json file
+2 - login to your heroku account by 'heroku login'
+
+    create Procfile inside that write
+        web: node <entry file name>
+
+3 - follow steps
+    heroku create <any unique name>
+4 - above cmd will give us two link one is for git
+5 - create git repo inside the folder then add commit
+6 - then setup origin as the git link we got above 
+    git remote add origin <link>
+7 - then push it to the master or main branch

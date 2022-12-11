@@ -14,8 +14,8 @@ const postsRoute = require('./routes/posts');
 
 // (MIDDLEWARES)
 app.use(cors({
-    origin: ["https://atmaapi.netlify.app"]
-})); // for cross domain acess to out api 
+    origin: "*"
+})); // for cross domain access to out api 
 // to parse the post data into json
 app.use(bodyParser.json());
 
